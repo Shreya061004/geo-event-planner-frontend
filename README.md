@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# Geo Event Planner Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend of the Geo Event Planner application built using React.js. It provides an interactive interface for users to register, log in, and create or manage events based on geographic locations. This frontend communicates with the Node.js and Express backend through REST APIs.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- User registration and login interface
+- Create new events
+- View all events
+- Update and delete events
+- Responsive and interactive UI
+- Integration with backend API
+- Organized component-based architecture
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Axios
+- Node.js (backend integration)
+- Express.js (backend integration)
+- MongoDB (backend database)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+geo-event-planner-frontend
+│
+├── public
+│
+├── src
+│ ├── components
+│ ├── pages
+│ ├── App.js
+│ └── index.js
+│
+├── package.json
+├── package-lock.json
+└── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation and Setup
 
-### `npm run eject`
+### 1. Clone the repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone https://github.com/Shreya061004/geo-event-planner-frontend.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Navigate to the project folder
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+cd geo-event-planner-frontend
 
-## Learn More
+### 3. Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Start the development server
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The application will run at:
 
-### Analyzing the Bundle Size
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Backend Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Backend for this project is available here:
 
-### Advanced Configuration
+https://github.com/Shreya061004/geo-event-planner-backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## How It Works
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Frontend sends requests to backend APIs
+- Backend processes requests and interacts with MongoDB
+- Data is returned and displayed in the frontend interface
+- Users can manage events through the UI
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Purpose of Project
+
+This project was developed to demonstrate full-stack development skills including:
+
+- Frontend development using React.js
+- Backend development using Node.js and Express.js
+- Database integration using MongoDB
+- REST API integration
+- GitHub project management
+
+---
+
+## Author
+
+Shreya Gupta  
+B.Tech Information Technology  
+Full Stack Developer (React.js, Node.js, MongoDB)
+
+---
+
+## Future Improvements
+
+- Map integration using Google Maps API
+- Event filtering by location today's date
+- User profile management
+- Deployment with live hosting
