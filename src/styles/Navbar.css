@@ -1,0 +1,22 @@
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .links {
+    display: flex;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  

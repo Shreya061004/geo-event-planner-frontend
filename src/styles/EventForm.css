@@ -1,0 +1,89 @@
+/* EventForm.css */
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto; /* Center the container */
+  padding: 30px 20px; /* Adjusted padding */
+  background: linear-gradient(135deg, rgba(255, 153, 204, 0.8), rgba(204, 255, 204, 0.8)); /* Gradient background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.event-form-card {
+  background-color: #fff; /* White background for the card */
+  border-radius: 15px; /* Rounded corners for the card */
+  padding: 40px; /* Padding inside the card */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for the card */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Darker text color for better contrast */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.form-label {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px; /* Space below labels */
+  color: #333; /* Darker text color for better contrast */
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  padding: 10px; /* Padding inside inputs */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #d00e0e; /* Border color */
+  width: 100%; /* Full width inputs */
+  margin-bottom: 15px; /* Space below inputs */
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5); /* Glow effect */
+}
+
+.custom-btn {
+  background-color: #ff6b6b; /* Button color matching home component */
+  border: none; /* No border */
+  padding: 12px 24px; /* Padding for buttons */
+  font-size: 16px; /* Font size for buttons */
+  color: #fff; /* White text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  margin-right: 10px; /* Space between buttons */
+}
+
+.custom-btn:hover {
+  background-color: #f1a205; /* Change color on hover */
+}
+
+.success-message {
+  color: #28a745; /* Green color for success messages */
+  text-align: center; /* Center success messages */
+}
+
+.error-message {
+  color: red; /* Red color for error messages */
+  text-align: center; /* Center error messages */
+}
+
+/* Additional styling for the map container */
+.map-container {
+  height: 400px; /* Fixed height for the map */
+  border-radius: 10px; /* Rounded corners for map */
+  overflow: hidden; /* Prevent overflow issues */
+}
+
+.google-maps {
+  width: 100%; /* Full width for Google Maps */
+  height: 100%; /* Full height for Google Maps */
+}
+
+label {
+  color: black; /* Set label text color to black */
+  font-weight: bold; /* Ensure labels are bold */
+}

@@ -1,0 +1,19 @@
+.event-list-container {
+  margin-top: 2rem;
+}
+
+.event-card {
+  height: 100%; /* Ensure the card takes full height */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+}
+
+.card-text {
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; /* Allow the description to grow and take space */
+}
